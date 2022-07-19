@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt update
+sudo apt install -y nginx certbot python3-certbot-nginx
+
 #Nginx
 Echo " Install the prerequisites: "
 sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring
